@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Math Garden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="character-container">
+            <img id="character" src="assets/character.png" alt="Karakter Penjaga Toko">
+        </div>
+        <div id="status-bar">
+            <div id="heart-container">
+                <img class="heart" src="assets/heart.png" alt="Nyawa">
+                <img class="heart" src="assets/heart.png" alt="Nyawa">
+                <img class="heart" src="assets/heart.png" alt="Nyawa">
+            </div>
+        </div>
+        
+        <div id="main-game-area">
+            <div id="question-board">
+                <h2 id="question-text"></h2>
+            </div>
+            <div id="plant-pot-container">
+                </div>
+            <div id="message-box"></div>
+        </div>
+
+        <div id="action-buttons">
+            <button id="plant-button" class="btn">Tanam</button>
+            <button id="water-button" class="btn">Siram</button>
+            <button id="harvest-button" class="btn">Panen</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+  </html>
